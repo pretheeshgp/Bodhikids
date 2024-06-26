@@ -64,7 +64,7 @@
 			section {
 
 
-						padding: 64px 32px !important;
+						padding: 64px 16px !important;
 						color: rebeccapurple !important;
 
 			}
@@ -192,6 +192,13 @@
 						flex-direction: column;
 						row-gap: 32px;
 
+			}
+
+			.branch-box-L {
+
+
+						width: 100% !important;
+						height: 256px !important;
 			}
 
 
