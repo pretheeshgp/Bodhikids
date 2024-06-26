@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bodhi Kids</title>
+
+	<link rel="stylesheet" href="./css/style.css">
+
+
+	<script type="text/javascript">
+		
+
+			function showPopUpMenu() {
+
+
+						document.getElementById('popupScreen').style.display='block';
+
+			}
+
+
+	</script>
+
+</head>
+<body>
+
+<!-- absolute popup screen for menus for tabs begins -->
+
+
+	<div class="popupScreen" id="popupScreen">
+		
+
+
+
+	</div>
+
+
+<!-- absolute popup screen for menus for tabs ends -->
+
+
+<section class="hero">
+	
+
+				<div class="header">
+					
+
+							<svg class="logo" width="105" height="94" viewBox="0 0 105 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.288 76C7.848 76 6.6 75.544 5.544 74.632C4.488 73.672 3.96 72.52 3.96 71.176V30.424C3.96 29.08 4.464 27.952 5.472 27.04C6.528 26.08 7.8 25.6 9.288 25.6H28.368C33.168 25.6 36.984 26.896 39.816 29.488C42.696 32.08 44.136 35.56 44.136 39.928C44.136 41.896 43.584 43.792 42.48 45.616C41.424 47.392 40.008 48.808 38.232 49.864V50.152C40.68 51.016 42.624 52.432 44.064 54.4C45.504 56.368 46.224 58.552 46.224 60.952C46.224 63.88 45.528 66.496 44.136 68.8C42.744 71.056 40.8 72.832 38.304 74.128C35.808 75.376 32.952 76 29.736 76H9.288ZM28.224 46.408C29.712 46.408 30.96 45.832 31.968 44.68C33.024 43.48 33.552 42.04 33.552 40.36C33.552 38.536 33.072 37.12 32.112 36.112C31.152 35.056 29.856 34.528 28.224 34.528H14.256V46.408H28.224ZM29.664 67.072C31.488 67.072 32.928 66.544 33.984 65.488C35.088 64.384 35.64 62.92 35.64 61.096C35.64 59.224 35.112 57.784 34.056 56.776C33 55.72 31.536 55.192 29.664 55.192H14.256V67.072H29.664ZM61.3266 32.8C61.3266 30.304 62.2386 28.384 64.0626 27.04C65.8866 25.648 68.5026 24.952 71.9106 24.952V47.56L95.3106 24.952C96.6546 25.96 97.7346 27.064 98.5506 28.264C99.3666 29.416 99.7746 30.424 99.7746 31.288C99.7746 32.104 99.5106 32.848 98.9826 33.52C98.4546 34.192 97.6146 35.08 96.4626 36.184L82.8546 49L102.007 73.264C100.375 75.52 98.2386 76.648 95.5986 76.648C93.1026 76.648 91.1346 75.712 89.6946 73.84L75.7266 55.624L71.9106 59.368V69.376C71.9106 71.92 71.0466 73.768 69.3186 74.92C67.6386 76.072 64.9746 76.648 61.3266 76.648V32.8Z" fill="white"/>
+<path d="M3.556 89V77.32H7.316C8.5 77.32 9.444 77.592 10.148 78.136C10.852 78.6693 11.204 79.3947 11.204 80.312C11.204 80.824 11.0813 81.272 10.836 81.656C10.6013 82.04 10.2813 82.3387 9.876 82.552C9.48133 82.7653 9.04933 82.872 8.58 82.872V82.92C9.10267 82.9093 9.57733 83.0053 10.004 83.208C10.4413 83.4107 10.7933 83.7147 11.06 84.12C11.3267 84.5253 11.46 85.0267 11.46 85.624C11.46 86.3067 11.2947 86.904 10.964 87.416C10.644 87.9173 10.1853 88.3067 9.588 88.584C8.99067 88.8613 8.28133 89 7.46 89H3.556ZM5.876 87.064H7.364C7.88667 87.064 8.29733 86.9253 8.596 86.648C8.89467 86.3707 9.044 85.9867 9.044 85.496C9.044 85.0053 8.89467 84.6213 8.596 84.344C8.29733 84.056 7.88667 83.912 7.364 83.912H5.876V87.064ZM5.876 82.024H7.284C7.75333 82.024 8.12133 81.9013 8.388 81.656C8.65467 81.4 8.788 81.0587 8.788 80.632C8.788 80.1947 8.65467 79.8587 8.388 79.624C8.12133 79.3787 7.75333 79.256 7.284 79.256H5.876V82.024ZM18.4938 89.16C17.7151 89.16 17.0378 89.016 16.4618 88.728C15.8858 88.4293 15.4378 88.0187 15.1178 87.496C14.8084 86.9627 14.6538 86.344 14.6538 85.64V80.68C14.6538 79.976 14.8084 79.3627 15.1178 78.84C15.4378 78.3067 15.8858 77.896 16.4618 77.608C17.0378 77.3093 17.7151 77.16 18.4938 77.16C19.2831 77.16 19.9604 77.3093 20.5258 77.608C21.1018 77.896 21.5444 78.3067 21.8538 78.84C22.1738 79.3627 22.3338 79.976 22.3338 80.68V85.64C22.3338 86.344 22.1738 86.9627 21.8538 87.496C21.5444 88.0187 21.1018 88.4293 20.5258 88.728C19.9604 89.016 19.2831 89.16 18.4938 89.16ZM18.4938 87.08C18.9738 87.08 19.3311 86.9573 19.5658 86.712C19.8111 86.456 19.9338 86.0987 19.9338 85.64V80.68C19.9338 80.2107 19.8164 79.8533 19.5818 79.608C19.3471 79.3627 18.9844 79.24 18.4938 79.24C18.0031 79.24 17.6404 79.3627 17.4058 79.608C17.1711 79.8533 17.0538 80.2107 17.0538 80.68V85.64C17.0538 86.0987 17.1711 86.456 17.4058 86.712C17.6511 86.9573 18.0138 87.08 18.4938 87.08ZM25.8955 89V77.32H29.6875C30.4982 77.32 31.2022 77.4747 31.7995 77.784C32.4075 78.0933 32.8768 78.5307 33.2075 79.096C33.5488 79.6507 33.7195 80.3067 33.7195 81.064V85.24C33.7195 85.9867 33.5488 86.6427 33.2075 87.208C32.8768 87.7733 32.4075 88.216 31.7995 88.536C31.2022 88.8453 30.4982 89 29.6875 89H25.8955ZM28.2955 86.76H29.6875C30.1782 86.76 30.5728 86.6213 30.8715 86.344C31.1702 86.0667 31.3195 85.6987 31.3195 85.24V81.064C31.3195 80.616 31.1702 80.2533 30.8715 79.976C30.5728 79.6987 30.1782 79.56 29.6875 79.56H28.2955V86.76ZM37.1372 89V77.32H39.5372V81.8H42.2252V77.32H44.6252V89H42.2252V84.04H39.5372V89H37.1372ZM48.555 89V86.92H50.875V79.4H48.555V77.32H55.595V79.4H53.275V86.92H55.595V89H48.555ZM59.5088 89V77.32H61.9088V81.848H63.0448L64.9648 77.32H67.5728L65.1728 82.904L67.6688 89H65.0288L63.0448 84.056H61.9088V89H59.5088ZM70.9425 89V86.92H73.2625V79.4H70.9425V77.32H77.9825V79.4H75.6625V86.92H77.9825V89H70.9425ZM81.8642 89V77.32H85.6562C86.4669 77.32 87.1709 77.4747 87.7682 77.784C88.3762 78.0933 88.8456 78.5307 89.1762 79.096C89.5176 79.6507 89.6882 80.3067 89.6882 81.064V85.24C89.6882 85.9867 89.5176 86.6427 89.1762 87.208C88.8456 87.7733 88.3762 88.216 87.7682 88.536C87.1709 88.8453 86.4669 89 85.6562 89H81.8642ZM84.2642 86.76H85.6562C86.1469 86.76 86.5416 86.6213 86.8402 86.344C87.1389 86.0667 87.2882 85.6987 87.2882 85.24V81.064C87.2882 80.616 87.1389 80.2533 86.8402 79.976C86.5416 79.6987 86.1469 79.56 85.6562 79.56H84.2642V86.76ZM96.85 89.16C96.0287 89.16 95.314 89.0213 94.706 88.744C94.098 88.4667 93.6287 88.0773 93.298 87.576C92.9673 87.0747 92.802 86.4827 92.802 85.8H95.202C95.202 86.1947 95.3513 86.5093 95.65 86.744C95.9593 86.968 96.3753 87.08 96.898 87.08C97.3993 87.08 97.7887 86.968 98.066 86.744C98.354 86.52 98.498 86.2107 98.498 85.816C98.498 85.4747 98.3913 85.1813 98.178 84.936C97.9647 84.6907 97.666 84.5253 97.282 84.44L96.098 84.168C95.106 83.9333 94.3327 83.5013 93.778 82.872C93.234 82.232 92.962 81.4533 92.962 80.536C92.962 79.8533 93.1167 79.2613 93.426 78.76C93.746 78.248 94.194 77.8533 94.77 77.576C95.346 77.2987 96.0287 77.16 96.818 77.16C98.0127 77.16 98.9567 77.4587 99.65 78.056C100.354 78.6427 100.706 79.4373 100.706 80.44H98.306C98.306 80.0667 98.1727 79.7733 97.906 79.56C97.65 79.3467 97.2767 79.24 96.786 79.24C96.3273 79.24 95.9753 79.3467 95.73 79.56C95.4847 79.7627 95.362 80.056 95.362 80.44C95.362 80.7813 95.458 81.0747 95.65 81.32C95.8527 81.5547 96.1353 81.7147 96.498 81.8L97.746 82.088C98.7807 82.3227 99.5647 82.7493 100.098 83.368C100.631 83.976 100.898 84.7547 100.898 85.704C100.898 86.3867 100.727 86.9893 100.386 87.512C100.055 88.0347 99.586 88.44 98.978 88.728C98.3807 89.016 97.6713 89.16 96.85 89.16Z" fill="#FF5171"/>
+</svg>
+
+
+							<div class="nav weight2 color2 font1 fontB">
+								
+									<div class="links click">Home</div>
+									<div class="links click">About Us</div>
+									<div class="links click">Program</div>
+									<div class="links click">Admissions</div>
+									<div class="links click">Blog</div>
+
+
+							</div>
+
+
+							<button class="click bgColor5 weight2 font1 fontB color1">Book A Visit</button>
+
+						<svg onclick="alert('tell me not!'), showPopUpMenu();" class="hamburger" width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+							<rect width="64" height="64" fill="url(#pattern0_1908_505)"/>
+							<defs>
+							<pattern id="pattern0_1908_505" patternContentUnits="objectBoundingBox" width="1" height="1">
+							<use xlink:href="#image0_1908_505" transform="scale(0.0111111)"/>
+							</pattern>
+							<image id="image0_1908_505" width="90" height="90" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAqklEQVR4nO3ZPQrCQBSF0WCny/cHs0q10faKaKVgmIE8A56zgClu8ab4hgEAAAAAAACA30mySXJIcglTzkn2SdY9Q4+Tz/NubB15leT28QxTro/tDL20oZ2Obse2A/08H+sku9eh57tTkm3XZwgAAAAA8OfE2SbibDFxtog4W0ScLSLOzkycBQAAAADoJM42EWeLibNFxNki4mwRcXZm4iwAAAAAAADAsAB337XoqI2Y7e8AAAAASUVORK5CYII="/>
+							</defs>
+						</svg>
+
+
+				</div>
+
+
+				<div class="hero-texts">
+					
+
+								<div id="hero-texts" class="para line5 weight2 fontA color2 hero-c1 h1">
+									
+												Fascilitating <span>body-being</span> abilities for children.
+
+								</div>
+
+								<div id="hero-texts" class="title hero-c2 line1 weight3 fontB font1 color2 h5">We fascilitate not only neccesary capaicty to acuqire practical skills of life but also help them to find joy in their moving alive body. We fasciliate art of meeting difficulties or challenges with love and bodily joy. They will be given the taste and real life experience of acquiring and developing skills with love and not through mere competetive based negativities and fears which is the defualt in our society.</div>
+
+
+								<button class="color1 bgColor2 weight2 fontB font1 h5">Book A Visit</button>
+
+
+				</div>
+
+
+</section>
+
+
+<section class="about bgColor4">
+	
+
+				<div class="about-c1">
+					
+
+							<div class="about-c1-r1 font4 fontA weight2 color1">We Are <span>Bodhikids</span> And <span>Childhood</span> Is Our Passion.</div>
+
+							<div class="about-c1-r2 font1 fontB weight1 color1 line1">We are a team focused on not letting any child move into adulthood without noticing and realizing any hidden talents and also let them get in touch with their unique talent and explore them on a daily basis apart from basic body-being exercises which are simply their bodily birth-right. In short we let them touch with their curios healthy playful self and find their own joyous being.</div>
+
+							<button class="click bgColor5 weight2 font1 fontB color1">Learn More</button>
+
+
+
+				</div>
+
+
+				<div class="about-c2">
+					
+
+							<div id="about-c2" class="bgColor5">
+								
+										<div class="card-title font0 fontB color1">HOME-LIKE ENVIRONMENT</div>
+										<div class="card-desc font0 fontB">We create for children an home-like space so that your children can come here with good feelings</div>
+
+							</div>
+							<div id="about-c2" class="bgColor1">
+								
+										<div class="card-title font0 fontB color3">SAFETY AND SECURITY</div>
+										<div class="card-desc font0 fontB">We create for children an home-like space so that your children can come here with good feelings</div>
+
+
+							</div>
+							<div id="about-c2" class="bgColor1">
+								
+										<div class="card-title font0 fontB color3">QUALITY EDUCATORS</div>
+										<div class="card-desc font0 fontB">We create for children an home-like space so that your children can come here with good feelings</div>
+
+
+							</div>
+							<div id="about-c2" class="bgColor1">
+								
+										<div class="card-title font0 fontB color3">PLAY TO LEARN</div>
+										<div class="card-desc font0 fontB">We create for children an home-like space so that your children can come here with good feelings</div>
+
+
+							</div>
+
+				</div>
+
+
+</section>
+
+
+<section class="kids">
+	
+
+			<div class="kids-heading heading">
+
+				<div class="title-text">We Meet Kids Where They Are</div>
+
+				<div class="sub-text">Our loving attention meets where their body-mind is.</div>
+
+			</div>
+
+
+		<div class="kids-group">
+
+				<div class="kids-box">
+					
+
+								<div class="kids-photo"></div>
+
+								<div class="kids-data">
+									
+
+										<div class="kids-title font1 fontB color3">INFANTS</div>
+										<div class="kids-desc fontB">Children anywhere from birth to 1 year old.</div>
+
+								</div>
+
+
+				</div>
+
+
+				<div class="kids-box">
+					
+
+								<div class="kids-photo"></div>
+
+								<div class="kids-data">
+									
+
+										<div class="kids-title font1 fontB color3">TODDLER</div>
+										<div class="kids-desc fontB">Children anywhere from birth to 1 year old.</div>
+
+								</div>
+
+
+				</div>
+
+
+				<div class="kids-box">
+					
+
+								<div class="kids-photo"></div>
+
+								<div class="kids-data">
+									
+
+										<div class="kids-title font1 fontB color3">PRESCHOOL</div>
+										<div class="kids-desc fontB">Children anywhere from birth to 1 year old.</div>
+
+								</div>
+
+
+				</div>
+
+
+				<div class="kids-box">
+					
+
+								<div class="kids-photo"></div>
+
+								<div class="kids-data">
+									
+
+										<div class="kids-title font1 fontB color3">FLEX-CARE</div>
+										<div class="kids-desc fontB">Children anywhere from birth to 1 year old.</div>
+
+								</div>
+
+
+				</div>
+
+		</div>
+
+
+</section>
+
+
+<section class="exercises">
+	
+
+			<div class="exercises-heading heading">
+
+				<div class="title-text">Movement is health</div>
+
+				<div class="sub-text">We create a safe space for the child to move freely and expressively.</div>
+
+			</div>
+
+
+			<div class="exercises-group">
+				
+
+							<div class="exercises-box">
+								
+
+											<div id="exercises-box" class="box-top">
+
+													<div class="">Body-Being Exercises</div>
+													<div class="circleB"></div>
+
+											</div>
+
+											<div id="exercises-box" class="box-bottom">Our teachers are effectively trained in body-being and are competent to work with kids in way that helps them grow creatively and productively</div>
+
+							</div>
+
+							<div class="exercises-box">
+								
+
+											<div id="exercises-box" class="box-top">
+
+													<div class="">Body-Being Exercises</div>
+													<div class="circleB"></div>
+
+											</div>
+
+											<div id="exercises-box" class="box-bottom">Our teachers are effectively trained in body-being and are competent to work with kids in way that helps them grow creatively and productively</div>
+
+							</div>
+							<div class="exercises-box">
+								
+
+											<div id="exercises-box" class="box-top">
+
+													<div class="">Body-Being Exercises</div>
+													<div class="circleB"></div>
+
+											</div>
+
+											<div id="exercises-box" class="box-bottom">Our teachers are effectively trained in body-being and are competent to work with kids in way that helps them grow creatively and productively</div>
+
+							</div>
+							<div class="exercises-box">
+								
+
+											<div id="exercises-box" class="box-top">
+
+													<div class="">Body-Being Exercises</div>
+													<div class="circleB"></div>
+
+											</div>
+
+											<div id="exercises-box" class="box-bottom">Our teachers are effectively trained in body-being and are competent to work with kids in way that helps them grow creatively and productively</div>
+
+							</div>
+							<div class="exercises-box">
+								
+
+											<div id="exercises-box" class="box-top">
+
+													<div class="">Body-Being Exercises</div>
+													<div class="circleB"></div>
+
+											</div>
+
+											<div id="exercises-box" class="box-bottom">Our teachers are effectively trained in body-being and are competent to work with kids in way that helps them grow creatively and productively</div>
+
+							</div>
+							<div class="exercises-box">
+								
+
+											<div id="exercises-box" class="box-top">
+
+													<div class="">Body-Being Exercises</div>
+													<div class="circleB"></div>
+
+											</div>
+
+											<div id="exercises-box" class="box-bottom">Our teachers are effectively trained in body-being and are competent to work with kids in way that helps them grow creatively and productively</div>
+
+							</div>
+
+
+
+			</div>
+
+
+</section>
+
+
+<section class="tutors">
+	
+		<div class="tutors-c1">
+			
+				<div class="tutors-h1">
+					
+						Kids will be met with the <span>bravest, safest</span> and <span>kindest</span> souls
+
+				</div>
+
+
+				<div class="tutor-photos wrap-row-flex">
+					
+
+								<div id="slide1-1" class="slide1 tutorsPhoto"></div>
+								<div id="slide1-2" class="slide1 tutorsPhoto"></div>
+								<div id="slide1-3" class="slide1 tutorsPhoto"></div>
+								<div id="slide1-4" class="slide1 tutorsPhoto"></div>
+								<div id="slide1-5" class="slide1 tutorsPhoto"></div>
+								<div id="slide1-6" class="slide1 tutorsPhoto"></div>
+								<div id="slide1-7" class="slide1 tutorsPhoto"></div>
+								<div id="slide1-8" class="slide1 tutorsPhoto"></div>
+								<div id="slide1-9" class="slide1 tutorsPhoto"></div>
+
+								<div id="slide2-1" class="slide2 tutorsPhoto"></div>
+								<div id="slide2-2" class="slide2 tutorsPhoto"></div>
+								<div id="slide2-3" class="slide2 tutorsPhoto"></div>
+								<div id="slide2-4" class="slide2 tutorsPhoto"></div>
+								<div id="slide2-5" class="slide2 tutorsPhoto"></div>
+								<div id="slide2-6" class="slide2 tutorsPhoto"></div>
+								<div id="slide2-7" class="slide2 tutorsPhoto"></div>
+								<div id="slide2-8" class="slide2 tutorsPhoto"></div>
+								<div id="slide2-9" class="slide2 tutorsPhoto"></div>
+
+				</div>
+
+
+				<div class="slider wrap-row-flex2">
+					
+					<div class="lines linesPink"></div>
+					<div class="lines linesBlack"></div>
+					<div class="lines linesBlack"></div>
+					<div class="lines linesBlack"></div>
+					<div class="lines linesBlack"></div>
+
+
+
+				</div>
+
+
+		</div>
+
+		<div class="tutors-c2">
+			
+
+					<div id="tutors-c2" class="tutor-cards">
+						
+						<div class="tutor-title">RESPONSIBLE</div>
+						<div class="tutor-body">We create for children an home-like place so that your children come here with pleasure.</div>
+
+
+					</div>
+
+
+					<div id="tutors-c2" class="tutor-cards">
+						
+						<div class="tutor-title">PASSIONATE</div>
+						<div class="tutor-body">We create for children an home-like place so that your children come here with pleasure.</div>
+
+
+					</div>
+
+					<div id="tutors-c2" class="tutor-cards">
+						
+						<div class="tutor-title">INTELLIGENT</div>
+						<div class="tutor-body">We create for children an home-like place so that your children come here with pleasure.</div>
+
+
+					</div>
+
+					<div id="tutors-c2" class="tutor-cards">
+						
+						<div class="tutor-title">CURIOUS</div>
+						<div class="tutor-body">Curiousity as a human quality is something most of us rarely nurture within as soon as we adapt to the society. We create for children an home-like place so that your children come here with pleasure.</div>
+
+
+					</div>
+
+
+					<div id="tutors-c2" class="tutor-cards">
+						
+						<div class="tutor-title">PLAYFUL</div>
+						<div class="tutor-body">We create for children an home-like place so that your children come here with pleasure.</div>
+
+
+					</div>
+
+					<div id="tutors-c2" class="tutor-cards bgPink">
+						
+						<div class="tutor-title oddBlack">BODHI CERTIFIED</div>
+						<div class="tutor-body oddBlack">We create for children an home-like place so that your children come here with pleasure. We create for children an home-like place so that your children come here with pleasure.</div>
+
+
+					</div>
+
+		</div>
+
+
+</section>
+
+
+<section class="testimonials">
+	
+
+					<div class="testi-heading heading">
+						
+
+
+						<div class="title-text">Hear From Our <span>Beloved’s Parents</span></div>
+
+						<div class="sub-text">Our source of inspiration and pride</div>
+
+
+					</div>
+
+
+
+					<div class="testi-group wrap-row-flex2">
+						
+
+								<div class="testi-box">
+									
+
+											<div class="testi-text">“Bodhikids’ team know how to let kids organically tap into their joy and well-being.  They transformed my child’s inner- state by enabling a supportive environment where he could safely and freely bring out his talents and birth-right to move freely without shame and fear of comparison and judgements.”</div>
+											<div class="testi-photo"></div>
+											<div class="testi-data">
+												
+														<div class="line1">Margret Octiwia</div>
+														<div class="line2">Hair Stylist</div>
+														<div class="line3">Seol, Korea</div>
+											</div>
+
+								</div>
+
+
+								<div class="testi-box">
+									
+
+											<div class="testi-text">“Bodhikids’ team know how to let kids organically tap into their joy and well-being.  They transformed my child’s inner- state by enabling a supportive environment where he could safely and freely bring out his talents and birth-right to move freely without shame and fear of comparison and judgements.”</div>
+											<div class="testi-photo"></div>
+											<div class="testi-data">
+												
+														<div class="line1">First Name</div>
+														<div class="line2">My Profession</div>
+														<div class="line3">I live here</div>
+
+											</div>
+
+								</div>
+
+
+
+								<div class="testi-box">
+									
+
+											<div class="testi-text">“Bodhikids’ team know how to let kids organically tap into their joy and well-being.  They transformed my child’s inner- state by enabling a supportive environment where he could safely and freely bring out his talents and birth-right to move freely without shame and fear of comparison and judgements.”</div>
+											<div class="testi-photo"></div>
+											<div class="testi-data">
+												
+														<div class="line1">First Name</div>
+														<div class="line2">My Profession</div>
+														<div class="line3">I live here</div>
+
+											</div>
+
+								</div>
+
+
+								<div class="testi-box">
+									
+
+											<div class="testi-text">“Bodhikids’ team know how to let kids organically tap into their joy and well-being.  They transformed my child’s inner- state by enabling a supportive environment where he could safely and freely bring out his talents and birth-right to move freely without shame and fear of comparison and judgements.”</div>
+											<div class="testi-photo"></div>
+											<div class="testi-data">
+												
+														<div class="line1">First Name</div>
+														<div class="line2">My Profession</div>
+														<div class="line3">I live here</div>
+
+											</div>
+
+								</div>
+
+
+								<div class="testi-box">
+									
+
+											<div class="testi-text">“Bodhikids’ team know how to let kids organically tap into their joy and well-being.  They transformed my child’s inner- state by enabling a supportive environment where he could safely and freely bring out his talents and birth-right to move freely without shame and fear of comparison and judgements.”</div>
+											<div class="testi-photo"></div>
+											<div class="testi-data">
+												
+														<div class="line1">First Name</div>
+														<div class="line2">My Profession</div>
+														<div class="line3">I live here</div>
+
+											</div>
+
+								</div>
+
+
+								<div class="testi-box">
+									
+
+											<div class="testi-text">“Bodhikids’ team know how to let kids organically tap into their joy and well-being.  They transformed my child’s inner- state by enabling a supportive environment where he could safely and freely bring out his talents and birth-right to move freely without shame and fear of comparison and judgements.”</div>
+											<div class="testi-photo"></div>
+											<div class="testi-data">
+												
+														<div class="line1">First Name</div>
+														<div class="line2">My Profession</div>
+														<div class="line3">I live here</div>
+
+											</div>
+
+								</div>
+
+
+								<div class="testi-box">
+									
+
+											<div class="testi-text">“Bodhikids’ team know how to let kids organically tap into their joy and well-being.  They transformed my child’s inner- state by enabling a supportive environment where he could safely and freely bring out his talents and birth-right to move freely without shame and fear of comparison and judgements.”</div>
+											<div class="testi-photo"></div>
+											<div class="testi-data">
+												
+														<div class="line1">First Name</div>
+														<div class="line2">My Profession</div>
+														<div class="line3">I live here</div>
+
+											</div>
+
+								</div>
+
+
+								<div class="testi-box">
+									
+
+											<div class="testi-text">“Bodhikids’ team know how to let kids organically tap into their joy and well-being.  They transformed my child’s inner- state by enabling a supportive environment where he could safely and freely bring out his talents and birth-right to move freely without shame and fear of comparison and judgements.”</div>
+											<div class="testi-photo"></div>
+											<div class="testi-data">
+												
+														<div class="line1">Margret Octiwia</div>
+														<div class="line2">Hair Stylist</div>
+														<div class="line3">Seol, Korea</div>
+
+											</div>
+
+								</div>
+
+
+								<div class="testi-box">
+									
+
+											<div class="testi-text">“Bodhikids’ team know how to let kids organically tap into their joy and well-being.  They transformed my child’s inner- state by enabling a supportive environment where he could safely and freely bring out his talents and birth-right to move freely without shame and fear of comparison and judgements.”</div>
+											<div class="testi-photo"></div>
+											<div class="testi-data">
+												
+														<div class="line1">First Name</div>
+														<div class="line2">My Profession</div>
+														<div class="line3">I live here</div>
+
+											</div>
+
+								</div>
+
+
+
+
+
+					</div>
+
+
+</section>
+
+
+<section class="cta">
+
+
+		<div class="cta-heading heading">
+			
+					<div class="title-text">Take The <span>First Step</span></div>
+					<div class="sub-text">Let us commit to child's growth</div>
+
+
+		</div>
+	
+			<form id="" class="cta-form">
+				
+
+					<div class="field">
+						
+								<label>Name</label>
+								<input class="row-input" type="text" />
+
+
+					</div>
+
+
+					<div class="field">
+						
+								<label>Phone</label>
+								<input class="row-input" type="number" />
+
+
+					</div>
+
+
+					<div class="field">
+						
+								<label>Email</label>
+								<input class="row-input" type="text" />
+
+
+					</div>
+
+
+					<div class="field">
+						
+								<label>Age Of Child</label>
+								<input class="row-input" type="number" />
+
+
+					</div>
+
+
+
+					<div class="field message-field">
+						
+								<label>Message</label>
+								<textarea id="form-message"></textarea>
+
+
+					</div>
+
+					<div class="button-spacing">
+
+							<button class="click bgColor5 weight2 font1 fontB color1">Submit</button>
+
+							<div class="cta-footer">We will email you shortly upon submitting this form and will arrange a telephone conversation to confirm and book an appointment with us at your convenience.</h6>
+
+					</div>
+
+
+
+		
+			</form>
+
+
+</section>
+
+
+<section class="branches">
+
+
+					<div class="branches-heading heading">
+						
+								<div class="title-text">Our <span>Branches</span></div>
+								<div class="sub-text">You are always welcome here</div>
+
+					</div>
+	
+
+					<div class="branch-box">
+	
+							<div class="branch-box-L"></div>
+
+
+							<div class="branch-box-R">
+								
+										<div class="R-1">Office Address 1</div>
+
+										<div class="R-2">
+											
+												<div id="R-2">Bodhi Kids, East Avenue</div>
+												<div id="R-2">Tripod Station</div>
+												<div id="R-2">New Palace Road</div>
+												<div id="R-2">Ernakulam</div>
+												<div id="R-2">Kerala</div>
+
+										</div>
+
+
+
+							</div>
+
+
+					</div>
+
+					<div class="branch-box">
+	
+							<div class="branch-box-L"></div>
+
+
+							<div class="branch-box-R">
+								
+										<div class="R-1">Office Address 2</div>
+
+										<div class="R-2">
+											
+												<div id="R-2">Bodhi Kids, East Avenue</div>
+												<div id="R-2">Tripod Station</div>
+												<div id="R-2">New Palace Road</div>
+												<div id="R-2">Ernakulam</div>
+												<div id="R-2">Kerala</div>
+
+										</div>
+
+
+
+							</div>
+
+
+					</div>
+					<div class="branch-box">
+						
+
+					</div>
+
+</section>
+
+<section class="footer wrap-column-flex">
+
+
+				<div id="footer" class="heading footer-heading">
+					
+
+						<div class="title-text">Keep In Touch With Us</div>
+						<div class="sub-text">We will send you weekly helpful childcare informations</div>
+
+				</div>
+	
+
+				<div id="footer" class="subscribe-form wrap-row-flex-around">
+					
+					<input class="column-input" type="email" name="" placeholder="Email" />
+
+					<button class="button-black column-btn">Subscribe</button>
+
+				</div>
+
+
+
+
+
+				<div id="footer" class="footer-info">
+					
+
+								<div class="info-box"></div>
+								<div class="info-box"></div>
+								<div class="info-box"></div>
+
+
+				</div>
+
+
+				<div id="footer" class="footer-foot">This site handcrafted by Pretheesh</div>
+
+</section>
+
+
+</body>
+</html>
