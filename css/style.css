@@ -63,7 +63,7 @@
 			section.hero {
 
 
-				background-image: url(../hero-mobile.jpg) !important;
+				background-image: url('../hero-mobile.jpg') !important;
 			    background-size: 100% 100% !important;
 			    background-repeat: no-repeat !important;				
 
@@ -82,7 +82,6 @@
 
 
 						padding: 32px 16px !important;
-						color: rebeccapurple !important;
 
 			}
 
@@ -476,15 +475,6 @@
 
 						width: 100% !important;
 
-						grid-template-columns: 1fr !important;
-				        grid-template-rows: auto auto !important;
-				        grid-row-gap: auto !important;
-				        grid-template-areas:
-				        "a a"
-				        "b c" !important;
-				        height: auto !important;
-				        justify-content: center !important;
-				        align-content: center !important;
 				}
 
 
@@ -1453,10 +1443,10 @@ button {
 
 			display: grid;
 			grid-template-areas: "a a" "b c";
-			grid-template-columns: 1fr 1.25fr;
+			grid-template-columns: 1fr 4fr;
 			grid-template-rows: auto auto;
 
-			grid-column-gap: 32px;
+			grid-column-gap: 16px;
 			grid-row-gap: 16px;
 
 			color: #000000;
