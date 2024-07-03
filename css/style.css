@@ -10,20 +10,54 @@
 
 		}
 
-
-			.h1 {
-
-
-					font-size: var(--h1v1) !important;
-			}
+.h1-text {
 
 
-			.h5 {
+				font-size: var(--h1v1) !important;
+				line-height: var(--h1v1) !important;
+}
+
+.h2-text {
 
 
-					font-size: var(--h5v1) !important;
-			}
+				font-size: var(--h2v1) !important;
+				font-family: var(--titleFont);
+				font-weight: var(--bold);
 
+}
+
+
+.h3-text {
+
+				font-size: var(--h3v1) !important;
+
+
+}
+
+
+.h4-text {
+
+				font-size: var(--h4v1) !important;
+
+
+}
+
+.body-text {
+
+
+				font-size: var(--h5v1) !important;
+
+}
+
+
+.h6-text {
+
+				font-size: var(--h6v1) !important;
+				font-family: var(--bodyFont);
+				font-weight: var(--regular);
+
+
+}
 			.popupScreen {
 
 
@@ -256,6 +290,16 @@
 
 						width: 100% !important;
 						height: 256px !important;
+			}
+
+
+			.subscribe-form {
+
+
+						display: flex;
+						flex-direction: column !important;
+						row-gap: 16px !important;
+						align-items: center !important;
 			}
 
 
@@ -786,12 +830,12 @@
 			--h6v2: 14px;
 
 /* typescale for mobiles  */
-			--h1v1: 48px;
-			--h2v1: 30px;
-			--h3v1: 20px;
-			--h4v1: 18px;
-			--h5v1: 16px;
-			--h6v1: 14px;
+			--h1v1: 40px;
+			--h2v1: 32px;
+			--h3v1: 25px;
+			--h4v1: 22px;
+			--h5v1: 18px;
+			--h6v1: 16px;
 
 			--bold: 900;
 			--regular: 400;
@@ -876,11 +920,13 @@ span {
 				font-size: var(--h2);
 				font-family: var(--titleFont);
 				font-weight: var(--bold);
+				text-align: center;
 }
 
 
 .h3-text {
 
+				font-size: var(--h3);
 
 
 }
@@ -888,7 +934,15 @@ span {
 
 .h4-text {
 
+				font-size: var(--h4);
 
+
+}
+
+.body-text {
+
+
+				font-size: var(--h5);
 
 }
 
@@ -898,17 +952,13 @@ span {
 				font-size: var(--h6);
 				font-family: var(--bodyFont);
 				font-weight: var(--regular);
+				text-align: center;
 
 
 }
 
 
-.body-text {
 
-
-				font-size: var(--h5);
-
-}
 
 
 
@@ -1517,6 +1567,12 @@ button {
 
 			color: var(--dark-pink) !important;
 
+}
+
+
+#testi-line {
+
+				text-align: left !important;
 }
 
 
