@@ -14,7 +14,7 @@
 
 
 				font-size: var(--h1v1) !important;
-				line-height: var(--h1v1) !important;
+				line-height: 48px !important;
 }
 
 .h2-text {
@@ -123,8 +123,6 @@
 			#hero-texts {
 
 					
-						padding-left: 16px !important;
-						padding-right: 16px !important;
 
 					
 			}
